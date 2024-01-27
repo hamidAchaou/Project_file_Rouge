@@ -60,7 +60,7 @@
                         <div class="card-body">
                             <!-- Table for apprenants -->
                             <div class="card-body table-responsive p-0">
-                            <?php include_once "./content-table.php" ?>
+                            <?php include_once "./content-table-disponible.php" ?>
 
                         </div>
                     </div>

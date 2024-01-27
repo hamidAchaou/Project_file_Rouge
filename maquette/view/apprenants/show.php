@@ -4,11 +4,6 @@
 <?php include_once "../layouts/head.php" ?>
 
 <style>
-    body {
-        font-family: 'Roboto', sans-serif;
-        background-color: #f4f6f9;
-    }
-
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -122,6 +117,10 @@
                                 <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Supprimer">
                                     <i class="fas fa-trash text-danger h5"></i>
                                 </button>
+                                <!-- departure Button -->
+                                <a href="./edit.php" type="button" class="btn btn-tool" data-toggle="tooltip" title="départe lécole">
+                                    <h5><i class="fa-solid fa-right-from-bracket"></i></h5>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -2,8 +2,8 @@
 // Get the current route URL
 $current_route = $_SERVER['REQUEST_URI'];
 
-$appranantsIndex = '/__SoliCoders/file_Rouge/maquite_gestion-apprenants/view/apprenants/index.php'; 
-$appranantsNotConfirme = '/__SoliCoders/file_Rouge/maquite_gestion-apprenants/view/apprenants/not-confirme.php'; 
+$appranantsIndex = '/PFE_2024/Project_file_Rouge/maquette/view/apprenants/index.php'; 
+$appranantsNotConfirme = '/PFE_2024/Project_file_Rouge/maquette/view/apprenants/not-confirme.php'; 
 
 ?>
 
@@ -20,7 +20,7 @@ $appranantsNotConfirme = '/__SoliCoders/file_Rouge/maquite_gestion-apprenants/vi
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                 <li class="nav-item">
-                    <a href="../welcomme/home.php" class="nav-link text-light <?php echo ($current_route == '/__SoliCoders/file_Rouge/maquite_gestion-apprenants/view/welcomme/home.php') ? 'active' : ''; ?>">
+                    <a href="../welcomme/home.php" class="nav-link text-light <?php echo ($current_route == '/PFE_2024/Project_file_Rouge/maquette/view/welcomme/home.php') ? 'active' : ''; ?>">
                         <i class="nav-icon fas fa-home"></i>
                         <p>Tableau De Bord</p>
                     </a>
@@ -34,14 +34,14 @@ $appranantsNotConfirme = '/__SoliCoders/file_Rouge/maquite_gestion-apprenants/vi
                 </li>
 
                 <li class="nav-item">
-                    <a href="../salles/index.php" class="nav-link text-light <?php echo ($current_route == '/__SoliCoders/file_Rouge/maquite_gestion-apprenants/view/salles/index.php') ? 'active' : ''; ?>">
+                    <a href="../salles/index.php" class="nav-link text-light <?php echo ($current_route == '/PFE_2024/Project_file_Rouge/maquette/view/salles/index.php') ? 'active' : ''; ?>">
                         <i class="fa-solid fa-school"></i>
                         <p>Salles</p>
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="../annes-scolaire/index.php" class="nav-link text-light <?php echo ($current_route == '/__SoliCoders/file_Rouge/maquite_gestion-apprenants/view/annes-scolaire/index.php') ? 'active' : ''; ?>">
+                    <a href="../annes-scolaire/index.php" class="nav-link text-light <?php echo ($current_route == '/PFE_2024/Project_file_Rouge/maquette/view/annes-scolaire/index.php') ? 'active' : ''; ?>">
                         <i class="fa-solid fa-calendar-days"></i>
                         <p>Année scolaire</p>
                     </a>

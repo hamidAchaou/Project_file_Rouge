@@ -12,10 +12,10 @@
     <tbody>
 
         <tr>
-            <td>salle 1</td>
+            <td>salle 4</td>
             <td>20</td>
             <td>etage 1</td>
-            <td>Dev 101</td>
+            <td></td>
             <td>
                 <!-- Edit and Delete buttons -->
                 <a href="#" class="btn btn-sm btn-outline-secondary" title="Edit">
@@ -23,15 +23,19 @@
                 </a>
                 <a href="#" class="btn btn-sm btn-outline-danger" title="Delete">
                     <i class="fa-solid fa-x"></i>
+                </a>
+                <!-- affecter salles -->
+                <a href="./affecter.php" class="btn btn-sm btn-outline-info" title="affecter salle">
+                <i class="fas fa-share"></i>
                 </a>
             </td>
         </tr>
 
         <tr>
-            <td>salle 2</td>
+            <td>salle 5</td>
             <td>20</td>
             <td>etage 1</td>
-            <td>Dev 102</td>
+            <td></td>
             <td>
                 <!-- Edit and Delete buttons -->
                 <a href="#" class="btn btn-sm btn-outline-secondary" title="Edit">
@@ -39,15 +43,19 @@
                 </a>
                 <a href="#" class="btn btn-sm btn-outline-danger" title="Delete">
                     <i class="fa-solid fa-x"></i>
+                </a>
+                <!-- affecter salles -->
+                <a href="./affecter.php" class="btn btn-sm btn-outline-info" title="affecter salle">
+                    <i class="fa-solid fa-share"></i>
                 </a>
             </td>
         </tr>
 
         <tr>
-            <td>salle 3</td>
+            <td>salle 6</td>
             <td>20</td>
             <td>etage 1</td>
-            <td>mobil 101</td>
+            <td></td>
             <td>
                 <!-- Edit and Delete buttons -->
                 <a href="#" class="btn btn-sm btn-outline-secondary" title="Edit">
@@ -55,6 +63,10 @@
                 </a>
                 <a href="#" class="btn btn-sm btn-outline-danger" title="Delete">
                     <i class="fa-solid fa-x"></i>
+                </a>
+                <!-- affecter salles -->
+                <a href="./affecter.php" class="btn btn-sm btn-outline-info" title="affecter salle">
+                    <i class="fa-solid fa-share"></i>
                 </a>
             </td>
         </tr>

@@ -37,9 +37,6 @@
                 <a href="#" class="btn btn-sm btn-danger" title="Delete">
                     <i class="fa-solid fa-trash-alt"></i>
                 </a>
-                <a href="../apprenants/departure.php" class="btn btn-sm btn-info" title="Delete">
-                    <i class="fa-solid fa-person-walking-arrow-right"></i>
-                </a>
             </td>
         </tr>
 
@@ -64,9 +61,6 @@
                 <a href="#" class="btn btn-sm btn-danger" title="Delete">
                     <i class="fa-solid fa-trash-alt"></i>
                 </a>
-                <a href="../apprenants/departure.php" class="btn btn-sm btn-info" title="Delete">
-                    <i class="fa-solid fa-person-walking-arrow-right"></i>
-                </a>
             </td>
         </tr>
         <tr>
@@ -89,9 +83,6 @@
                 </a>
                 <a href="#" class="btn btn-sm btn-danger" title="Delete">
                     <i class="fa-solid fa-trash-alt"></i>
-                </a>
-                <a href="../apprenants/departure.php" class="btn btn-sm btn-info" title="Delete">
-                    <i class="fa-solid fa-person-walking-arrow-right"></i>
                 </a>
             </td>
         </tr>

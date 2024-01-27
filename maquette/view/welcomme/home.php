@@ -102,7 +102,7 @@
                                 <a href="../apprenants/not-confirme.php" class="btn text-light">
                                     <i class="fa-solid fa-check-double"></i> APPRENANTS NOT CONFIRM
                                 </a>
-                                <a href="../apprenants/apprenants-quite.php" class="btn text-light">
+                                <a href="../salles/salles-disponible.php" class="btn text-light">
                                     <i class="fa-regular fa-square-plus"></i> SALE DISPONIBLES
                                 </a>
                             </div>

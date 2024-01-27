@@ -32,7 +32,7 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                 <!-- User image -->
-                <li class="user-header bg-info">
+                <li class="user-header bg-purple">
                     <img src="../assets/img/directeur.png" class="img-circle elevation-2" alt="User Image">
                     <p>
                         admin
@@ -42,8 +42,8 @@
                 <!-- Menu Footer-->
                 <li class="user-footer">
                     <a href="#" class="btn btn-default btn-flat">Profile</a>
-                    <a href="#" class="btn btn-default btn-flat float-right" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                        Sign_out
+                    <a href="../../index.php" class="btn btn-default btn-flat float-right">
+                        se déconnecter
                     </a>
                 </li>
             </ul>

@@ -54,7 +54,7 @@
                        </div>
                        <!-- /.col -->
                        <div class="col-4">
-                           <a href="./view/welcomme/home.php" class="btn btn-info btn-block">Sign In</a>
+                           <a href="./view/welcomme/home.php" class="btn bg-purple btn-block">Sign In</a>
                        </div>
                        <!-- /.col -->
                    </div>

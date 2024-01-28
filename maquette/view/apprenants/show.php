@@ -70,12 +70,12 @@
         margin-right: 5px;
     }
 
-    .btn-purple {
+    .btn-teal {
         background-color: #007bff;
         border-color: #007bff;
     }
 
-    .btn-purple:hover {
+    .btn-teal:hover {
         background-color: #0056b3;
         border-color: #0056b3;
     }
@@ -106,20 +106,20 @@
                 <div class="container-fluid">
 
                     <div class="card">
-                        <div class="card-header bg-purple">
+                        <div class="card-header bg-teal">
                             More details apprenants
                             <div class="card-tools">
                                 <!-- Edit Button -->
-                                <a href="./edit.php" type="button" class="btn btn-tool" data-toggle="tooltip" title="Modifier">
+                                <a href="./edit.php" type="button" class="btn btn-tool text-secondary" data-toggle="tooltip" title="Modifier">
                                     <i class="fas fa-edit h5"></i>
                                 </a>
                                 <!-- Delete Button -->
-                                <button type="button" class="btn btn-tool" data-toggle="tooltip" title="Supprimer">
-                                    <i class="fas fa-trash text-danger h5"></i>
+                                <button type="button" class="btn btn-tool text-danger" data-toggle="tooltip" title="Supprimer">
+                                    <i class="fas fa-trash h5"></i>
                                 </button>
                                 <!-- departure Button -->
-                                <a href="./edit.php" type="button" class="btn btn-tool" data-toggle="tooltip" title="départe lécole">
-                                    <h5><i class="fa-solid fa-right-from-bracket"></i></h5>
+                                <a href="./departure.php" type="button" class="btn btn-tool text-purple" data-toggle="tooltip" title="départe lécole">
+                                    <h5><i class="fa-solid fa-share"></i></h5>
                                 </a>
                             </div>
                         </div>
@@ -128,7 +128,7 @@
 
                     <div class="row">
                         <div class="col-md-3">
-                            <div class="box box-purple">
+                            <div class="box box-teal">
                                 <div class="box-body box-profile">
                                     <img class="profile-user-img img-responsive img-circle" src="../assets/img/directeur.png" alt="User profile picture">
                                     <div class="d-flex justify-content-between">
@@ -266,7 +266,7 @@
                 </div>
 
                 <div class="col-md-12">
-                    <div class="box box-purple">
+                    <div class="box box-teal">
                         <div class="card">
                             <div class="card-header">
                                 <h3 class="card-title">Identification de l'apprenant</h3><br>

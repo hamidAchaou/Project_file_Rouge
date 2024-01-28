@@ -18,7 +18,7 @@
     <tbody>
         <tr>
             <td>
-                <a href="../apprenants/show.php" class="text-purple">
+                <a href="../apprenants/show.php" class="text-teal">
                     <i class="fa-solid fa-eye"></i>
                 </a>
             </td>
@@ -31,7 +31,7 @@
             <td>0643320632</td>
             <td>M</td>
             <td>
-                <a href="#" class="btn btn-sm btn-secondary" title="Edit">
+                <a href="./edit.php" class="btn btn-sm btn-secondary" title="Edit">
                     <i class="fa-solid fa-edit"></i>
                 </a>
                 <a href="#" class="btn btn-sm btn-danger" title="Delete">
@@ -42,7 +42,7 @@
 
         <tr>
             <td>
-                <a href="../apprenants/show.php" class="text-purple">
+                <a href="../apprenants/show.php" class="text-teal">
                     <i class="fa-solid fa-eye"></i>
                 </a>
             </td>
@@ -55,7 +55,7 @@
             <td>0643320632</td>
             <td>M</td>
             <td>
-                <a href="#" class="btn btn-sm btn-secondary" title="Edit">
+                <a href="./edit.php" class="btn btn-sm btn-secondary" title="Edit">
                     <i class="fa-solid fa-edit"></i>
                 </a>
                 <a href="#" class="btn btn-sm btn-danger" title="Delete">
@@ -65,7 +65,7 @@
         </tr>
         <tr>
             <td>
-                <a href="../apprenants/show.php" class="text-purple">
+                <a href="../apprenants/show.php" class="text-teal">
                     <i class="fa-solid fa-eye"></i>
                 </a>
             </td>
@@ -78,7 +78,7 @@
             <td>0643320632</td>
             <td>M</td>
             <td>
-                <a href="#" class="btn btn-sm btn-secondary" title="Edit">
+                <a href="./edit.php" class="btn btn-sm btn-secondary" title="Edit">
                     <i class="fa-solid fa-edit"></i>
                 </a>
                 <a href="#" class="btn btn-sm btn-danger" title="Delete">

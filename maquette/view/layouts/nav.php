@@ -32,7 +32,7 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                 <!-- User image -->
-                <li class="user-header bg-purple">
+                <li class="user-header bg-teal">
                     <img src="../assets/img/directeur.png" class="img-circle elevation-2" alt="User Image">
                     <p>
                         admin

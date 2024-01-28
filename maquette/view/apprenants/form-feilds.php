@@ -180,7 +180,7 @@
 
     <!-- Submit Button -->
     <div class="col-12 mt-4">
-        <button type="submit" class="btn bg-purple">Enregistrer</button>
+        <button type="submit" class="btn bg-teal">Enregistrer</button>
     </div>
 
 </form>

@@ -23,7 +23,7 @@
                             <h1>Liste des Apprenats</h1>
                         </div>
                         <div class="">
-                            <a href="./create.php" class="btn bg-purple">
+                            <a href="./create.php" class="btn bg-teal">
                                 <i class="fas fa-plus"></i> Nouveau Apprenats
                             </a>
                         </div>
@@ -34,7 +34,7 @@
                             <!-- Filter Form -->
                             <div class="filter-apprenants card-header">
                                 <form action="" class="d-flex align-items-center w-100">
-                                    <div class="col-md-1 text-navy m-0 p-0 d-flex align-items-center">
+                                    <div class="col-md-1 text-olive m-0 p-0 d-flex align-items-center">
                                         <h3 class="m-0 p-0 border-right pr-4">
                                             <i class="fas fa-filter"></i>
                                         </h3>
@@ -64,7 +64,7 @@
                                             <option value="Groupe B" class="input-groupe-sm">Groupe B</option>
                                         </select>
                                     </div>
-                                    <button class="btn btn-sm bg-navy col-md-2" type="button" onclick="search()">FILTER</button>
+                                    <button class="btn btn-sm bg-olive col-md-2" type="button" onclick="search()">FILTER</button>
                                 </form>
                             </div>
 
@@ -79,25 +79,27 @@
                 <div class="container-fluid">
                     <!-- Card for Les apprenants -->
                     <div class="card">
-                        <div class="card-header bg-purple  text-light mx-3 row">
-                            <div class="col-md-9">
-                                <h3 class="card-title">Les apprenants</h3><br>
-                                <div class="d-flex">
-                                    <a href="./not-confirme.php" class="btn text-light">
-                                        <i class="fa-solid fa-check-double"></i> Liste des apprenants not confirm
-                                    </a>
-                                    <a href="./apprenants-quite.php" class="btn text-light">
-                                        <i class="fa-solid fa-eye"></i> Liste des apprenants quite
-                                    </a>
+                        <div class="card-header bg-teal">
+                            <div class=" text-light row">
+                                <div class="col-md-9">
+                                    <h3 class="card-title">Les apprenants</h3><br>
+                                    <div class="d-flex">
+                                        <a href="./not-confirme.php" class="btn text-light">
+                                            <i class="fa-solid fa-check-double"></i> Liste des apprenants not confirm
+                                        </a>
+                                        <a href="./apprenants-quite.php" class="btn text-light">
+                                            <i class="fa-solid fa-eye"></i> Liste des apprenants quite
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="p-0 col-md-3">
-                                <div class="input-group input-group-sm  col-md-12 p-0">
-                                    <input type="text" name="search-input" id="search-input" class="form-control float-right" placeholder="Recherche">
-                                    <div class="input-group-append">
-                                        <button type="submit" class="btn btn-default">
-                                            <i class="fas fa-search"></i>
-                                        </button>
+                                <div class="p-0 col-md-3">
+                                    <div class="input-group input-group-sm  col-md-12 p-0">
+                                        <input type="text" name="search-input" id="search-input" class="form-control float-right" placeholder="Recherche">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-default">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -126,7 +128,7 @@
                                     <tbody>
                                         <tr>
                                             <td>
-                                                <a href="./show.php" class="text-purple">
+                                                <a href="./show.php" class="text-teal">
                                                     <i class="fa-solid fa-eye"></i>
                                                 </a>
                                             </td>
@@ -153,12 +155,12 @@
                                 </table>
 
                                 <div class="d-flex flex-row-reverse align-items-center pt-2">
-                                    <ul class="pagination  m-0 ">
-                                        <li class="page-item"><a class="page-link text-purple" href="#">«</a></li>
-                                        <li class="page-item"><a class="page-link text-purple active" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link text-purple" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link text-purple" href="#">3</a></li>
-                                        <li class="page-item"><a class="page-link text-purple" href="#">»</a></li>
+                                    <ul class="pagination  m-0 pb-3">
+                                        <li class="page-item"><a class="page-link text-teal" href="#">«</a></li>
+                                        <li class="page-item"><a class="page-link text-teal active" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link text-teal" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link text-teal" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link text-teal" href="#">»</a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- include heade -->
-<?php include "../layouts/head.php" ?>
+
+<head>
+    <!-- include head -->
+    <?php include "../layouts/head.php"; ?>
+</head>
 
 <body class="hold-transition sidebar-mini">
     <!-- Wrapper -->
@@ -19,21 +22,21 @@
                 <div class="container-fluid">
                     <div class="d-flex justify-content-between mb-4">
                         <div class="">
-                            <h1>Liste des Apprenats</h1>
+                            <h1>Liste des Apprenants</h1>
                         </div>
                         <div class="">
-                            <a href="./create.php" class="btn bg-purple">
-                                <i class="fas fa-plus"></i> Nouveau Apprenats
+                            <a href="./create.php" class="btn bg-teal">
+                                <i class="fas fa-plus"></i> Nouveau Apprenants
                             </a>
                         </div>
                     </div>
 
-                    <div class="my-2">
+                    <div class="">
                         <div class="card w-100">
                             <!-- Filter Form -->
                             <div class="filter-apprenants card-header">
                                 <form action="" class="d-flex align-items-center w-100">
-                                    <div class="col-md-1 text-navy m-0 p-0 d-flex align-items-center">
+                                    <div class="col-md-1 text-olive m-0 p-0 d-flex align-items-center">
                                         <h3 class="m-0 p-0 border-right pr-4">
                                             <i class="fas fa-filter"></i>
                                         </h3>
@@ -63,10 +66,9 @@
                                             <option value="Groupe B" class="input-groupe-sm">Groupe B</option>
                                         </select>
                                     </div>
-                                    <button class="btn btn-sm bg-navy col-md-2" type="button" onclick="search()">FILTER</button>
+                                    <button class="btn btn-sm bg-olive col-md-2" type="button" onclick="search()">FILTER</button>
                                 </form>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -78,7 +80,8 @@
                 <div class="container-fluid">
                     <!-- Card for Les apprenants -->
                     <div class="card">
-                        <div class="card-header bg-purple  text-light mx-3 row">
+                        <div class="card-header bg-olive">
+                            <div class="  text-light row">
                             <div class="col-md-9">
                                 <h3 class="card-title">Les apprenants</h3><br>
                                 <div class="d-flex">
@@ -100,17 +103,18 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="card-body">
-                            <!-- Table for apprenants -->
-                            <div class="card-body table-responsive p-0">
-                                <?php include_once "./content-table.php" ?>
-
                             </div>
                         </div>
+                        <div class="card-body p-0">
+                            <!-- Table for apprenants -->
+                            <div class="card-body table-responsive p-0">
+                                <?php include_once "./content-table.php"; ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- / .Apprenants -->
-
         </div>
         <!-- /.List des apprenants -->
 

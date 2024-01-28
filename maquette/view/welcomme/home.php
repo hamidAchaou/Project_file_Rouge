@@ -93,7 +93,7 @@
                 <div class="container-fluid">
                     <!-- Your content goes here -->
                     <div class="card">
-                        <div class="card-header bg-purple">
+                        <div class="card-header bg-teal">
                             <div class="row">
                                 <h5 class="pt-1 pr-2">infos :</h5>
                                 <a href="../apprenants/not-confirme.php" class="btn bg-light">

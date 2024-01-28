@@ -27,7 +27,7 @@
                 <div class="container-fluid py-5">
                     <!-- Apprenant Form -->
                     <div class="card">
-                        <div class="card-header bg-purple text-light">
+                        <div class="card-header bg-teal text-light">
                             <h3 class="card-title">départ apprenants</h3>
                         </div>
                         <div class="card-body">
@@ -62,7 +62,7 @@
                                     <textarea class="form-control" id="description" name="description" rows="4" required></textarea>
                                 </div>
 
-                                <button type="submit" class="btn bg-purple">Confirme</button>
+                                <button type="submit" class="btn bg-teal">Confirme</button>
                             </form>
 
                         </div>

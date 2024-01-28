@@ -22,7 +22,7 @@
                             <h1>Liste des Salles</h1>
                         </div>
                         <div>
-                            <a href="./create.php" class="btn bg-purple">
+                            <a href="./create.php" class="btn bg-teal">
                                 <i class="fas fa-plus"></i> Nouveau salles
                             </a>
                         </div>
@@ -37,22 +37,24 @@
                 <div class="container-fluid">
                     <!-- Card for Les apprenants -->
                     <div class="card">
-                        <div class="card-header bg-purple text-light mx-3 row">
-                            <div class="col-md-9">
-                                <h3 class="card-title">LIST DES SALLES</h3><br>
-                                <div class="d-flex">
-                                    <a href="./salles-disponible.php" class="btn text-light">
-                                        <i class="fa-solid fa-eye"></i> Liste des salles disponible
-                                    </a>
+                        <div class="card-header bg-olive">
+                            <div class="text-light row">
+                                <div class="col-md-9">
+                                    <h3 class="card-title">LIST DES SALLES</h3><br>
+                                    <div class="d-flex">
+                                        <a href="./salles-disponible.php" class="btn text-light">
+                                            <i class="fa-solid fa-eye"></i> Liste des salles disponible
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="p-0 col-md-3">
-                                <div class="input-group input-group-sm col-md-12 p-0">
-                                    <input type="text" name="search-input" id="search-input" class="form-control float-right" placeholder="Recherche">
-                                    <div class="input-group-append">
-                                        <button type="submit" class="btn btn-default">
-                                            <i class="fas fa-search"></i>
-                                        </button>
+                                <div class="p-0 col-md-3">
+                                    <div class="input-group input-group-sm col-md-12 p-0">
+                                        <input type="text" name="search-input" id="search-input" class="form-control float-right" placeholder="Recherche">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-default">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -60,11 +62,11 @@
                         <div class="card-body">
                             <!-- Table for apprenants -->
                             <div class="card-body table-responsive p-0">
-                            <?php include_once "./content-table.php" ?>
+                                <?php include_once "./content-table.php" ?>
 
+                            </div>
                         </div>
                     </div>
-                </div>
             </section>
             <!-- / .Apprenants -->
 

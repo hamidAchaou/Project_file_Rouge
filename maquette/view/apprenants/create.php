@@ -21,7 +21,7 @@
 
                     <!-- Apprenant Form -->
                     <div class="card">
-                        <div class="card-header bg-purple text-light">
+                        <div class="card-header bg-teal text-light">
                             <h3 class="card-title">Nouveau Apprenant</h3>
                         </div>
                         <div class="card-body">

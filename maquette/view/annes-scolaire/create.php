@@ -27,14 +27,7 @@
             <div class="content-header">
                 <div class="container-fluid">
                     <div class="d-flex justify-content-between mb-4">
-                        <div class="">
-                        <h1>années scolaire</h1>
-                        </div>
-                        <!-- <div class="">
-                            <a href="#" class="btn bg-purple  ">
-                                <i class="fas fa-plus"></i> Nouveau Apprenats
-                            </a>
-                        </div> -->
+                        <h1 class="card-title">années scolaire</h1>
                     </div>
                 </div>
             </div>
@@ -45,10 +38,10 @@
                 <div class="container-fluid">
                     <!-- Card for Les apprenants -->
                     <div class="card">
-                        <div class="card-header bg-purple row  text-light mx-3">
+                        <div class="card-header bg-teal">
                             <div class="col-md-6">
                                 <h3 class="card-title">
-                                    <i class="fa-solid fa-plus"></i> Ajouter
+                                    Ajouter une années scolaire
                                 </h3>
                             </div>
                         </div>

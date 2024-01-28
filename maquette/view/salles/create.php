@@ -19,7 +19,7 @@
                 <div class="row">
                     <div class="col-md-6 offset-md-3">
                         <div class="card">
-                            <div class="card-header bg-purple text-light">
+                            <div class="card-header bg-teal text-light">
                                 <h3 class="card-title">Créer une nouvelle salle</h3>
                             </div>
                             <div class="card-body">

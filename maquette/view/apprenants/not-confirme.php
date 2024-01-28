@@ -23,7 +23,7 @@
                             <h1>Liste des Apprenats Not confirme</h1>
                         </div>
                         <div class="">
-                            <a href="./create.php" class="btn bg-purple">
+                            <a href="./create.php" class="btn bg-teal">
                                 <i class="fas fa-plus"></i> Nouveau Apprenats
                             </a>
                         </div>
@@ -79,25 +79,27 @@
                 <div class="container-fluid">
                     <!-- Card for Les apprenants -->
                     <div class="card">
-                        <div class="card-header bg-purple  text-light mx-3 row">
-                            <div class="col-md-9">
-                                <h3 class="card-title">Les apprenants</h3><br>
-                                <div class="d-flex">
-                                    <a href="./not-confirme.php" class="btn text-light">
-                                        <i class="fa-solid fa-check-double"></i> Liste des apprenants not confirm
-                                    </a>
-                                    <a href="./apprenants-quite.php" class="btn text-light">
-                                        <i class="fa-solid fa-eye"></i> Liste des apprenants quite
-                                    </a>
+                        <div class="card-header bg-olive">
+                            <div class="  text-light row">
+                                <div class="col-md-9">
+                                    <h3 class="card-title">Les apprenants</h3><br>
+                                    <div class="d-flex">
+                                        <a href="./not-confirme.php" class="btn text-light">
+                                            <i class="fa-solid fa-check-double"></i> Liste des apprenants not confirm
+                                        </a>
+                                        <a href="./apprenants-quite.php" class="btn text-light">
+                                            <i class="fa-solid fa-eye"></i> Liste des apprenants quite
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="p-0 col-md-3">
-                                <div class="input-group input-group-sm  col-md-12 p-0">
-                                    <input type="text" name="search-input" id="search-input" class="form-control float-right" placeholder="Recherche">
-                                    <div class="input-group-append">
-                                        <button type="submit" class="btn btn-default">
-                                            <i class="fas fa-search"></i>
-                                        </button>
+                                <div class="p-0 col-md-3">
+                                    <div class="input-group input-group-sm  col-md-12 p-0">
+                                        <input type="text" name="search-input" id="search-input" class="form-control float-right" placeholder="Recherche">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn btn-default">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -123,11 +125,10 @@
                                     </thead>
                                     <!-- Table body -->
                                     <tbody>
-
                                         <tr>
                                             <td>
-                                                <a href="./show.php" class="text-purple">
-                                                    <i class="fa-solid fa-eye"></i>
+                                                <a href="./show.php" class="text-teal">
+                                                    <i class="fas fa-eye"></i> <!-- Changed to use "fas" instead of "fa-solid" -->
                                                 </a>
                                             </td>
                                             <td>Hamid</td>
@@ -139,22 +140,21 @@
                                             <td>0643320632</td>
                                             <td>M</td>
                                             <td>
-                                                <a href="./confirme.php" class="btn btn-sm bg-success" title="confirme">
-                                                    <i class="fa-solid fa-check"></i> Confirme
+                                                <a href="./confirme.php" class="btn btn-sm bg-success" title="Confirm"> <!-- Changed title to "Confirm" -->
+                                                    <i class="fas fa-check"></i> Confirme <!-- Changed to use "fas" instead of "fa-solid" -->
                                                 </a>
                                                 <a href="#" class="btn btn-sm btn-secondary" title="Edit">
-                                                    <i class="fa-solid fa-pen"></i>
+                                                    <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
                                                 </a>
                                                 <a href="#" class="btn btn-sm btn-danger" title="Delete">
-                                                    <i class="fa-solid fa-x"></i>
+                                                    <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
                                                 </a>
                                             </td>
                                         </tr>
-
                                         <tr>
                                             <td>
-                                                <a href="./show.php" class="text-purple">
-                                                    <i class="fa-solid fa-eye"></i>
+                                                <a href="./show.php" class="text-teal">
+                                                    <i class="fas fa-eye"></i> <!-- Changed to use "fas" instead of "fa-solid" -->
                                                 </a>
                                             </td>
                                             <td>Hamid</td>
@@ -166,21 +166,21 @@
                                             <td>0643320632</td>
                                             <td>M</td>
                                             <td>
-                                            <a href="./confirme.php" class="btn btn-sm bg-success" title="confirm">
-                                                    <i class="fa-solid fa-check"></i> Confirme
-                                                </a>                                                <a href="#" class="btn btn-sm btn-secondary" title="Edit">
-                                                    <i class="fa-solid fa-pen"></i>
+                                                <a href="./confirme.php" class="btn btn-sm bg-success" title="Confirm"> <!-- Changed title to "Confirm" -->
+                                                    <i class="fas fa-check"></i> Confirme <!-- Changed to use "fas" instead of "fa-solid" -->
+                                                </a>
+                                                <a href="#" class="btn btn-sm btn-secondary" title="Edit">
+                                                    <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
                                                 </a>
                                                 <a href="#" class="btn btn-sm btn-danger" title="Delete">
-                                                    <i class="fa-solid fa-x"></i>
+                                                    <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
                                                 </a>
                                             </td>
                                         </tr>
-
                                         <tr>
                                             <td>
-                                                <a href="./show.php" class="text-purple">
-                                                    <i class="fa-solid fa-eye"></i>
+                                                <a href="./show.php" class="text-teal">
+                                                    <i class="fas fa-eye"></i> <!-- Changed to use "fas" instead of "fa-solid" -->
                                                 </a>
                                             </td>
                                             <td>Hamid</td>
@@ -192,26 +192,28 @@
                                             <td>0643320632</td>
                                             <td>M</td>
                                             <td>
-                                            <a href="./confirme.php" class="btn btn-sm bg-success" title="confirm">
-                                                    <i class="fa-solid fa-check"></i> Confirme
-                                                </a>                                                <a href="#" class="btn btn-sm btn-secondary" title="Edit">
-                                                    <i class="fa-solid fa-pen"></i>
+                                                <a href="./confirme.php" class="btn btn-sm bg-success" title="Confirm"> <!-- Changed title to "Confirm" -->
+                                                    <i class="fas fa-check"></i> Confirme <!-- Changed to use "fas" instead of "fa-solid" -->
+                                                </a>
+                                                <a href="#" class="btn btn-sm btn-secondary" title="Edit">
+                                                    <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
                                                 </a>
                                                 <a href="#" class="btn btn-sm btn-danger" title="Delete">
-                                                    <i class="fa-solid fa-x"></i>
+                                                    <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
                                                 </a>
                                             </td>
                                         </tr>
                                     </tbody>
+
                                 </table>
 
                                 <div class="d-flex flex-row-reverse align-items-center pt-2">
                                     <ul class="pagination  m-0 ">
-                                        <li class="page-item"><a class="page-link text-purple" href="#">«</a></li>
-                                        <li class="page-item"><a class="page-link text-purple active" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link text-purple" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link text-purple" href="#">3</a></li>
-                                        <li class="page-item"><a class="page-link text-purple" href="#">»</a></li>
+                                        <li class="page-item"><a class="page-link text-teal" href="#">«</a></li>
+                                        <li class="page-item"><a class="page-link text-teal active" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link text-teal" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link text-teal" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link text-teal" href="#">»</a></li>
                                     </ul>
                                 </div>
                             </div>

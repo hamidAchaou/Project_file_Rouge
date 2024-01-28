@@ -26,12 +26,12 @@
             <!-- Content Header (Page header) -->
             <div class="content-header">
                 <div class="container-fluid">
-                    <div class="d-flex justify-content-between mb-4">
+                    <div class="d-flex justify-content-between">
                         <div class="">
                         <h1>list des années scolaire</h1>
                         </div>
-                        <div class="./create.php">
-                            <a href="#" class="btn bg-purple  ">
+                        <div class="">
+                            <a href="./create.php" class="btn bg-teal">
                                 <i class="fas fa-plus"></i> Nouveau années scolair
                             </a>
                         </div>
@@ -45,12 +45,10 @@
                 <div class="container-fluid">
                     <!-- Card for Les apprenants -->
                     <div class="card">
-                        <div class="card-header bg-purple row  text-light mx-3">
+                        <div class="card-header bg-olive">
+                            <div class="row text-light">
                             <div class="col-md-6">
                                 <h3 class="card-title">Années scolair</h3><br>
-                                <!-- <a href="./create.php" class="btn text-light">
-                                <i class="fas fa-plus bg-light rounded-circle p-1"></i> Ajout une années scolaire
-                            </a> -->
                             </div>
                             <div class="col-md-6 p-0">
                                 <div class="input-group input-group-sm float-sm-right col-md-6 p-0">
@@ -61,6 +59,7 @@
                                         </button>
                                     </div>
                                 </div>
+                            </div>
                             </div>
                         </div>
                         <div class="card-body">

@@ -18,12 +18,12 @@
             <td>Dev 101</td>
             <td>
                 <!-- Edit and Delete buttons -->
-                <a href="#" class="btn btn-sm btn-outline-secondary" title="Edit">
-                    <i class="fa-solid fa-pen"></i>
-                </a>
-                <a href="#" class="btn btn-sm btn-outline-danger" title="Delete">
-                    <i class="fa-solid fa-x"></i>
-                </a>
+                <a href="#" class="btn btn-sm btn-secondary" title="Edit">
+                <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
+            </a>
+            <a href="#" class="btn btn-sm btn-danger" title="Delete">
+                <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
+            </a>
             </td>
         </tr>
 
@@ -34,12 +34,12 @@
             <td>Dev 102</td>
             <td>
                 <!-- Edit and Delete buttons -->
-                <a href="#" class="btn btn-sm btn-outline-secondary" title="Edit">
-                    <i class="fa-solid fa-pen"></i>
-                </a>
-                <a href="#" class="btn btn-sm btn-outline-danger" title="Delete">
-                    <i class="fa-solid fa-x"></i>
-                </a>
+            <a href="#" class="btn btn-sm btn-secondary" title="Edit">
+                <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
+            </a>
+            <a href="#" class="btn btn-sm btn-danger" title="Delete">
+                <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
+            </a>
             </td>
         </tr>
 
@@ -50,12 +50,12 @@
             <td>mobil 101</td>
             <td>
                 <!-- Edit and Delete buttons -->
-                <a href="#" class="btn btn-sm btn-outline-secondary" title="Edit">
-                    <i class="fa-solid fa-pen"></i>
-                </a>
-                <a href="#" class="btn btn-sm btn-outline-danger" title="Delete">
-                    <i class="fa-solid fa-x"></i>
-                </a>
+            <a href="#" class="btn btn-sm btn-secondary" title="Edit">
+                <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
+            </a>
+            <a href="#" class="btn btn-sm btn-danger" title="Delete">
+                <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
+            </a>
             </td>
         </tr>
 
@@ -65,10 +65,10 @@
 
 <div class="d-flex flex-row-reverse align-items-center pt-2">
     <ul class="pagination m-0 ">
-        <li class="page-item"><a class="page-link text-purple" href="#">«</a></li>
-        <li class="page-item"><a class="page-link text-purple active" href="#">1</a></li>
-        <li class="page-item"><a class="page-link text-purple" href="#">2</a></li>
-        <li class="page-item"><a class="page-link text-purple" href="#">3</a></li>
-        <li class="page-item"><a class="page-link text-purple" href="#">»</a></li>
+        <li class="page-item"><a class="page-link text-teal" href="#">«</a></li>
+        <li class="page-item"><a class="page-link text-teal active" href="#">1</a></li>
+        <li class="page-item"><a class="page-link text-teal" href="#">2</a></li>
+        <li class="page-item"><a class="page-link text-teal" href="#">3</a></li>
+        <li class="page-item"><a class="page-link text-teal" href="#">»</a></li>
     </ul>
 </div>

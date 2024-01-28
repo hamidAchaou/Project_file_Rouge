@@ -17,5 +17,5 @@
         <input class="form-control" type="date" value="2025-10-17" id="editedEndDate" name="editedEndDate" required><br>
     </div>
 
-    <button type="submit" class="btn bg-purple mx-2">Ajouter</button>
+    <button type="submit" class="btn bg-teal mx-2">Ajouter</button>
 </form>

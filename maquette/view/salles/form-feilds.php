@@ -39,6 +39,6 @@
     </div>
 
     <div class="mb-3">
-        <button type="submit" class="btn bg-purple">Créer</button>
+        <button type="submit" class="btn bg-teal">Créer</button>
     </div>
 </form>

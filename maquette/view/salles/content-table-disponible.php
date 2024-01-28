@@ -19,14 +19,14 @@
             <td>
                 <!-- Edit and Delete buttons -->
                 <a href="#" class="btn btn-sm btn-secondary" title="Edit">
-                    <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
+                    <i class="fas fa-edit"></i> 
                 </a>
                 <a href="#" class="btn btn-sm btn-danger" title="Delete">
-                    <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
+                    <i class="fas fa-trash-alt"></i> 
                 </a>
                 <!-- affecter salles -->
                 <a href="./affecter.php" class="btn btn-sm btn-outline-info" title="affecter salle">
-                <i class="fa-solid fa-share"></i> Affecter
+                    <i class="fa-solid fa-share"></i> Affecter
                 </a>
             </td>
         </tr>
@@ -39,10 +39,10 @@
             <td>
                 <!-- Edit and Delete buttons -->
                 <a href="#" class="btn btn-sm btn-secondary" title="Edit">
-                    <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
+                    <i class="fas fa-edit"></i> 
                 </a>
                 <a href="#" class="btn btn-sm btn-danger" title="Delete">
-                    <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
+                    <i class="fas fa-trash-alt"></i> 
                 </a>
                 <!-- affecter salles -->
                 <a href="./affecter.php" class="btn btn-sm btn-outline-info" title="affecter salle">
@@ -59,14 +59,14 @@
             <td>
                 <!-- Edit and Delete buttons -->
                 <a href="#" class="btn btn-sm btn-secondary" title="Edit">
-                    <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
+                    <i class="fas fa-edit"></i> 
                 </a>
                 <a href="#" class="btn btn-sm btn-danger" title="Delete">
-                    <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
+                    <i class="fas fa-trash-alt"></i> 
                 </a>
                 <!-- affecter salles -->
                 <a href="./affecter.php" class="btn btn-sm btn-outline-info" title="affecter salle">
-                <i class="fa-solid fa-share"></i> Affecter
+                    <i class="fa-solid fa-share"></i> Affecter
                 </a>
             </td>
         </tr>

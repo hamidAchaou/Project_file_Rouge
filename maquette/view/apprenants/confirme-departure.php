@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Include header -->
-<?php include "../layouts/head.php" ?>
+
+<?php include_once "../layouts/head.php" ?>
+
 
 <body class="hold-transition sidebar-mini">
     <!-- Wrapper -->
@@ -20,31 +21,30 @@
                     <!-- Apprenant Form -->
                     <div class="card">
                         <div class="card-header bg-teal text-light">
-                            <h3 class="card-title">Confirme Apprenant</h3>
+                            <h3 class="card-title">départ apprenants</h3>
                         </div>
                         <div class="card-body">
                             <!-- Your form content goes here -->
                             <form action="#" method="POST">
-                                <!-- Add your form fields here -->
                                 <div class="form-group">
-                                    <label for="filier">Filier:</label>
-                                    <select class="form-control" id="filier" name="filier" required>
-                                        <option value="option1">Dev Web</option>
-                                        <option value="option2">Dev Mobile</option>
-                                    </select>
+                                    <label for="dateDepart">Date du départ:</label>
+                                    <input type="date" class="form-control" id="dateDepart" name="dateDepart" value="2023-12-12" required>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="raison">Raison du départ:</label>
+                                    <input type="text" class="form-control" id="raison-depart" name="raison-depart" value="Obtention de certificat" required>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="groupe">Groupe:</label>
-                                    <select class="form-control" id="groupe" name="groupe" required>
-                                        <option value="group1">101</option>
-                                        <option value="group1">102</option>
-                                        <option value="group1">102</option>
-                                        <option value="group2">103</option>
-                                    </select>
+                                    <label for="description">Description:</label>
+                                    <textarea class="form-control" id="description" name="description" rows="4" ></textarea>
                                 </div>
+
                                 <button type="submit" class="btn bg-teal">Confirme</button>
                             </form>
+
                         </div>
                     </div>
 
@@ -65,6 +65,8 @@
     <script src="../../node_modules/admin-lte/dist/js/adminlte.min.js"></script>
     <!-- link js -->
     <script src="../assets/js/app.js"></script>
+
+
 </body>
 
 </html>

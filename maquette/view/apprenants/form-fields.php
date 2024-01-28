@@ -1,8 +1,8 @@
 <form action="#" method="POST" class="row g-3">
 
-    <!-- Nom (french) -->
+    <!-- Nom (French) -->
     <div class="col-md-6 pt-3">
-        <label for="nom" class="form-label">Nom:</label>
+        <label for="nom" class="form-label">Nom :</label>
         <input type="text" class="form-control" id="nom" name="nom" value="Achaou" required>
     </div>
 
@@ -14,7 +14,7 @@
 
     <!-- Prénom (French) -->
     <div class="col-md-6 pt-3">
-        <label for="prenom" class="form-label">Prénom:</label>
+        <label for="prenom" class="form-label">Prénom :</label>
         <input type="text" class="form-control" id="prenom" name="prenom" value="Hamid" required>
     </div>
 
@@ -26,7 +26,7 @@
 
     <!-- Gender (French) -->
     <div class="col-md-6 pt-3">
-        <label for="gender" class="form-label">Sexe:</label>
+        <label for="gender" class="form-label">Sexe :</label>
         <select class="form-control" id="gender" name="gender" required>
             <option value="male">Masculin</option>
             <option value="female">Féminin</option>
@@ -42,15 +42,15 @@
         </select>
     </div>
 
-    <!-- Matricule d'etudion -->
+    <!-- Matricule d'étudiant -->
     <div class="col-md-6 pt-3">
-        <label for="matricule" class="form-label">Matricule d'étudiant:</label>
+        <label for="matricule" class="form-label">Matricule d'étudiant :</label>
         <input type="text" class="form-control" id="matricule" name="matricule" value="12353" required>
     </div>
 
     <!-- Niveau Scolaire -->
     <div class="col-md-6 pt-3">
-        <label for="niveau" class="form-label">Niveau Scolaire:</label>
+        <label for="niveau" class="form-label">Niveau Scolaire :</label>
         <select class="form-control" id="niveau" name="niveau" required>
             <option value="Baccalauréat" selected>
                 Baccalauréat
@@ -70,7 +70,7 @@
         </select>
     </div>
 
-    <!-- Etudtion Actif -->
+    <!-- Étudiant Actif -->
     <div class="col-md-12">
         <div class="form-check">
             <input class="form-check-input" type="checkbox" id="etudtion_actif" name="etudtion_actif">
@@ -80,7 +80,7 @@
 
     <!-- Filière -->
     <div class="col-md-6 pt-3">
-        <label for="filiere" class="form-label">Filière:</label>
+        <label for="filiere" class="form-label">Filière :</label>
         <select class="form-control" id="filiere" name="filiere" required>
             <option value="Dev web">Dev web</option>
             <option value="Dev mobile">Dev mobile</option>
@@ -89,7 +89,7 @@
 
     <!-- Groupe -->
     <div class="col-md-6 pt-3">
-        <label for="groupe" class="form-label">Groupe:</label>
+        <label for="groupe" class="form-label">Groupe :</label>
         <select class="form-control" id="groupe" name="groupe" required>
             <option value="101">101</option>
             <option value="102">102</option>
@@ -101,20 +101,19 @@
 
     <!-- Date de Naissance -->
     <div class="col-md-6 pt-3">
-        <label for="date_naissance" class="form-label">Date de Naissance:</label>
+        <label for="date_naissance" class="form-label">Date de Naissance :</label>
         <input type="date" class="form-control" id="date_naissance" name="date_naissance" value="1999-08-02" required>
     </div>
 
-
     <!-- Date d'Inscription -->
     <div class="col-md-6 pt-3">
-        <label for="date_inscription" class="form-label">Date d'Inscription:</label>
+        <label for="date_inscription" class="form-label">Date d'Inscription :</label>
         <input type="date" class="form-control" id="date_inscription" name="date_inscription" value="2022-08-02" required>
     </div>
 
     <!-- Nom d'établissement -->
     <div class="col-md-6 pt-3">
-        <label for="etablissement" class="form-label">Nom d'établissement:</label>
+        <label for="etablissement" class="form-label">Nom d'établissement :</label>
         <select class="form-control" id="etablissement" name="etablissement" required>
             <option value="Solicode">Solicode</option>
         </select>
@@ -122,49 +121,49 @@
 
     <!-- Date de Confirmation (Nhar Jab Dossier) -->
     <div class="col-md-6 pt-3">
-        <label for="date_confirmation" class="form-label">Date de Confirmation:</label>
+        <label for="date_confirmation" class="form-label">Date de Confirmation :</label>
         <input type="date" class="form-control" id="date_confirmation" name="date_confirmation" value="2022-09-12" required>
     </div>
 
     <!-- CIN -->
     <div class="col-md-6 pt-3">
-        <label for="cin" class="form-label">CIN:</label>
+        <label for="cin" class="form-label">CIN :</label>
         <input type="text" class="form-control" id="cin" name="cin" value="EB76383" required>
     </div>
 
     <!-- Numéro de Téléphone -->
     <div class="col-md-6 pt-3">
-        <label for="telephone" class="form-label">Numéro de Téléphone:</label>
+        <label for="telephone" class="form-label">Numéro de Téléphone :</label>
         <input type="tel" class="form-control" id="telephone" name="telephone" value="074234223" required>
     </div>
 
     <!-- Lieu de Naissance -->
     <div class="col-md-6 pt-3">
-        <label for="lieu_naissance" class="form-label">Lieu de Naissance:</label>
+        <label for="lieu_naissance" class="form-label">Lieu de Naissance :</label>
         <input type="text" class="form-control" id="lieu_naissance" name="lieu_naissance" value="imintanout" required>
     </div>
 
     <!-- Adresse -->
     <div class="col-md-6 pt-3">
-        <label for="adresse" class="form-label">Adresse:</label>
+        <label for="adresse" class="form-label">Adresse :</label>
         <input type="text" class="form-control" id="adresse" name="adresse" value="Tange Complex hassani" required>
     </div>
 
     <!-- Adresse Postal -->
     <div class="col-md-6 pt-3">
-        <label for="adresse_postal" class="form-label">Adresse Postal:</label>
+        <label for="adresse_postal" class="form-label">Adresse Postal :</label>
         <input type="text" class="form-control" id="adresse_postal" name="adresse_postal" value="90000" required>
     </div>
 
     <!-- Email -->
     <div class="col-md-6 pt-3">
-        <label for="email" class="form-label">Email:</label>
+        <label for="email" class="form-label">Email :</label>
         <input type="email" class="form-control" id="email" name="email" value="achaou.hamid.solicode@gmail.com" required>
     </div>
 
     <!-- Ville -->
     <div class="col-md-6 pt-3">
-        <label for="ville" class="form-label">Ville:</label>
+        <label for="ville" class="form-label">Ville :</label>
         <select class="form-control" id="ville" name="ville" required>
             <option value="tanger" selected>Tanger</option>
             <option value="casablanca">Casablanca</option>
@@ -178,7 +177,7 @@
         </select>
     </div>
 
-    <!-- Submit Button -->
+    <!-- Bouton de soumission -->
     <div class="col-12 mt-4">
         <button type="submit" class="btn bg-teal">Enregistrer</button>
     </div>

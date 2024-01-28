@@ -20,7 +20,7 @@
                     <div class="col-md-8 offset-md-2">
                         <div class="card">
                             <div class="card-header bg-teal text-light">
-                                <h3 class="card-title">Créer une nouvelle salle</h3>
+                                <h3 class="card-title">Modifier une salle</h3>
                             </div>
                             <div class="card-body">
                                 <!-- Your form for creating a new record -->

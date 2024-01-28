@@ -18,11 +18,11 @@
             <td>Dev 101</td>
             <td>
                 <!-- Edit and Delete buttons -->
-                <a href="#" class="btn btn-sm btn-secondary" title="Edit">
-                <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
+                <a href="./edit.php" class="btn btn-sm btn-secondary" title="Edit">
+                <i class="fas fa-edit"></i> 
             </a>
             <a href="#" class="btn btn-sm btn-danger" title="Delete">
-                <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
+                <i class="fas fa-trash-alt"></i> 
             </a>
             </td>
         </tr>
@@ -34,11 +34,11 @@
             <td>Dev 102</td>
             <td>
                 <!-- Edit and Delete buttons -->
-            <a href="#" class="btn btn-sm btn-secondary" title="Edit">
-                <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
+            <a href="./edit.php" class="btn btn-sm btn-secondary" title="Edit">
+                <i class="fas fa-edit"></i> 
             </a>
             <a href="#" class="btn btn-sm btn-danger" title="Delete">
-                <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
+                <i class="fas fa-trash-alt"></i> 
             </a>
             </td>
         </tr>
@@ -50,11 +50,11 @@
             <td>mobil 101</td>
             <td>
                 <!-- Edit and Delete buttons -->
-            <a href="#" class="btn btn-sm btn-secondary" title="Edit">
-                <i class="fas fa-edit"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-edit" icon -->
+            <a href="./edit.php" class="btn btn-sm btn-secondary" title="Edit">
+                <i class="fas fa-edit"></i> 
             </a>
             <a href="#" class="btn btn-sm btn-danger" title="Delete">
-                <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
+                <i class="fas fa-trash-alt"></i> 
             </a>
             </td>
         </tr>

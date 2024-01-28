@@ -34,7 +34,7 @@
                             <!-- Filter Form -->
                             <div class="filter-apprenants card-header">
                                 <form action="" class="d-flex align-items-center w-100">
-                                    <div class="col-md-1 text-navy m-0 p-0 d-flex align-items-center">
+                                    <div class="col-md-1 text-olive m-0 p-0 d-flex align-items-center">
                                         <h3 class="m-0 p-0 border-right pr-4">
                                             <i class="fas fa-filter"></i>
                                         </h3>
@@ -64,7 +64,7 @@
                                             <option value="Groupe B" class="input-groupe-sm">Groupe B</option>
                                         </select>
                                     </div>
-                                    <button class="btn btn-sm bg-navy col-md-2" type="button">FILTER</button>
+                                    <button class="btn btn-sm bg-olive col-md-2" type="button">FILTER</button>
                                 </form>
                             </div>
 
@@ -177,6 +177,7 @@
                                                 </a>
                                             </td>
                                         </tr>
+                                    
                                         <tr>
                                             <td>
                                                 <a href="./show.php" class="text-teal">
@@ -202,8 +203,7 @@
                                                     <i class="fas fa-trash-alt"></i> <!-- Changed to use "fas" instead of "fa-solid" and used "fa-trash-alt" icon -->
                                                 </a>
                                             </td>
-                                        </tr>
-                                    </tbody>
+                                        </tr></tbody>
 
                                 </table>
 

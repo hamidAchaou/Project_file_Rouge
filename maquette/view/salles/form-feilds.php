@@ -17,25 +17,10 @@
             <!-- Add more options as needed -->
         </select>
     </div>
-    <div class="mb-3 form-group">
-        <label for="class" class="form-label">Classe:</label>
-        <select class="form-control" id="class" name="class" required>
-            <option value="ClassA">Dev web</option>
-            <option value="ClassB">Dev mobile</option>
-            <!-- Add more options as needed -->
-        </select>
-    </div>
 
-    <div class="mb-3 form-group">
-        <label for="groupe" class="form-label">Groupe:</label>
-        <select class="form-control" id="groupe" name="groupe" required>
-            <option value="101">101</option>
-            <option value="102">102</option>
-            <option value="103">103</option>
-            <option value="104">104</option>
-            <option value="105">105</option>
-            <!-- Add more options as needed -->
-        </select>
+    <div class="mb-3">
+        <label for="afecter" class="form-label">Afecter:</label>
+        <input type="text" class="form-control" id="afecter" name="afecter">
     </div>
 
     <div class="mb-3">

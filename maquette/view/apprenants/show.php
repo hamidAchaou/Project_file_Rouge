@@ -118,7 +118,7 @@
                                     <i class="fas fa-trash h5"></i>
                                 </button>
                                 <!-- departure Button -->
-                                <a href="./departure.php" type="button" class="btn btn-tool text-purple" data-toggle="tooltip" title="départe lécole">
+                                <a href="./confirme-departure.php" type="button" class="btn btn-tool text-purple" data-toggle="tooltip" title="départe lécole">
                                     <h5><i class="fa-solid fa-share"></i></h5>
                                 </a>
                             </div>
@@ -154,7 +154,7 @@
                         <div class="col-md-9">
                             <div class="card" style="min-height: 405px;">
                                 <div class="card-header p-2">
-                                    <ul class="nav nav-pills">
+                                    <ul class="nav nav-pills nav-showApprenants">
                                         <li class="nav-item"><a class="nav-link active" href="#scolarite" data-toggle="tab">Scolarité</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#inscription" data-toggle="tab">Inscription</a></li>
                                         <li class="nav-item"><a class="nav-link" href="#identificationApprenants" data-toggle="tab">Identification de l'apprenant</a></li>

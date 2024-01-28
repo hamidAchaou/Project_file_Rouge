@@ -25,3 +25,13 @@ aside .nav-item a:hover {
     background-color: #20c997;
 
 }
+
+
+
+.nav-showApprenants .nav-item  .active {
+    background-color: #20c997 !important;
+}
+
+.nav-showApprenants .nav-item a :active {
+    background-color: #20c997 !important;
+}

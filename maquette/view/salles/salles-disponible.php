@@ -37,7 +37,7 @@
                 <div class="container-fluid">
                     <!-- Card for Les apprenants -->
                     <div class="card">
-                        <div class="card-header bg-olive">
+                        <div class="card-header bg-teal">
                             <div class="text-light row">
                             <div class="col-md-9">
                                 <h3 class="card-title">LIST DES SALLES</h3><br>

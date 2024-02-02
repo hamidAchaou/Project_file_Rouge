@@ -2,8 +2,8 @@
 // Get the current route URL
 $current_route = $_SERVER['REQUEST_URI'];
 
-$appranantsIndex = '/PFE_2024/Project_file_Rouge/maquette/view/apprenants/index.php'; 
-$appranantsNotConfirme = '/PFE_2024/Project_file_Rouge/maquette/view/apprenants/not-confirme.php'; 
+$appranantsIndex = '/PFE_2024/Project_file_Rouge/maquette/view/apprenants/index.php';
+$appranantsNotConfirme = '/PFE_2024/Project_file_Rouge/maquette/view/apprenants/not-confirme.php';
 
 ?>
 
@@ -34,9 +34,16 @@ $appranantsNotConfirme = '/PFE_2024/Project_file_Rouge/maquette/view/apprenants/
                 </li>
 
                 <li class="nav-item">
-                    <a href="../salles/index.php" class="nav-link  <?php echo ($current_route == '/PFE_2024/Project_file_Rouge/maquette/view/salles/index.php') ? 'active' : ''; ?>">
-                        <i class="fa-solid fa-school"></i>
-                        <p>Salles</p>
+                    <a href="../filier/index.php" class="nav-link  <?php echo ($current_route == '/PFE_2024/Project_file_Rouge/maquette/view/filier/index.php') ? 'active' : ''; ?>">
+                    <i class="fa-solid fa-code-branch"></i>
+                        <p>filier</p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="../groupe/index.php" class="nav-link  <?php echo ($current_route == '/PFE_2024/Project_file_Rouge/maquette/view/groupe/index.php') ? 'active' : ''; ?>">
+                        <i class="fa-solid fa-users-rays"></i>
+                        <p>Groupe</p>
                     </a>
                 </li>
 
@@ -52,5 +59,3 @@ $appranantsNotConfirme = '/PFE_2024/Project_file_Rouge/maquette/view/apprenants/
     </div>
     <!-- /.sidebar -->
 </aside>
-
-

@@ -15,8 +15,8 @@
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="../annes-scolaire/index.php">créer années scolaire</a>
                     <a class="dropdown-item" href="../apprenants/create.php">Ajouter une apprenants</a>
-                    <a class="dropdown-item" href="../salle/create.php">créer une salle</a>
-                    <a class="dropdown-item" href="../class/create.php">créer une classe</a>
+                    <a class="dropdown-item" href="../filier/create.php">créer une filier</a>
+                    <a class="dropdown-item" href="../groupe/create.php">créer une groupe</a>
                 </div>
             </div>
         </li>

@@ -2,20 +2,16 @@
     <!-- Table headers -->
     <thead>
         <tr>
-            <th>Nom salle</th>
-            <th>Capacité</th>
-            <th>Emplacement</th>
-            <th>Affecter</th>
-            <th>Action</th>
+            <th>Groupe</th>
+            <th>description</th>
+            <th>Actions</th>
         </tr>
     </thead>
     <tbody>
 
         <tr>
-            <td>salle 1</td>
-            <td>20</td>
-            <td>etage 1</td>
-            <td>Dev 101</td>
+            <td>101</td>
+            <td></td>
             <td>
                 <!-- Edit and Delete buttons -->
                 <a href="./edit.php" class="btn btn-sm btn-secondary" title="Edit">
@@ -27,14 +23,13 @@
             </td>
         </tr>
 
+
         <tr>
-            <td>salle 2</td>
-            <td>20</td>
-            <td>etage 1</td>
-            <td>Dev 102</td>
+            <td>101</td>
+            <td></td>
             <td>
                 <!-- Edit and Delete buttons -->
-            <a href="./edit.php" class="btn btn-sm btn-secondary" title="Edit">
+                <a href="./edit.php" class="btn btn-sm btn-secondary" title="Edit">
                 <i class="fas fa-edit"></i> 
             </a>
             <a href="#" class="btn btn-sm btn-danger" title="Delete">
@@ -43,14 +38,13 @@
             </td>
         </tr>
 
+        
         <tr>
-            <td>salle 3</td>
-            <td>20</td>
-            <td>etage 1</td>
-            <td>mobil 101</td>
+            <td>101</td>
+            <td></td>
             <td>
                 <!-- Edit and Delete buttons -->
-            <a href="./edit.php" class="btn btn-sm btn-secondary" title="Edit">
+                <a href="./edit.php" class="btn btn-sm btn-secondary" title="Edit">
                 <i class="fas fa-edit"></i> 
             </a>
             <a href="#" class="btn btn-sm btn-danger" title="Delete">

@@ -19,11 +19,11 @@
                 <div class="container-fluid">
                     <div class="d-flex justify-content-between mb-4">
                         <div>
-                            <h1>Liste des Salles</h1>
+                            <h1>Liste des filier</h1>
                         </div>
                         <div>
                             <a href="./create.php" class="btn bg-teal">
-                                <i class="fas fa-plus"></i> Nouveau salles
+                                <i class="fas fa-plus"></i> Nouveau filier
                             </a>
                         </div>
                     </div>
@@ -37,14 +37,11 @@
                 <div class="container-fluid">
                     <!-- Card for Les apprenants -->
                     <div class="card">
-                        <div class="card-header bg-olive">
+                        <div class="card-header bg-teal">
                             <div class="text-light row">
                                 <div class="col-md-9">
-                                    <h3 class="card-title">LIST DES SALLES</h3><br>
-                                    <div class="d-flex">
-                                        <a href="./salles-disponible.php" class="btn text-light">
-                                            <i class="fa-solid fa-eye"></i> Liste des salles disponible
-                                        </a>
+                                    <div class="dropdown input-group">
+                                        <h3>Filier</h3>
                                     </div>
                                 </div>
                                 <div class="p-0 col-md-3">
